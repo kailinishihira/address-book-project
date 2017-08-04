@@ -14,6 +14,13 @@ namespace AddressBook.Controllers
             return View(allContacts);
         }
 
+    [HttpPost("/contacts/clear")]
+        public ActionResult ClearContacts()
+        {
+            Contact.ClearAll();
+            return View();
+        }
+
     [HttpGet("/contact/add")]
         public ActionResult AddContact()
         {

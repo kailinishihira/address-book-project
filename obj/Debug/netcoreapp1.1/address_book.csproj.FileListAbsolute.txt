@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/address-book/bin/Debug/netcoreapp1.1/address_book.deps.json
+/Users/Guest/Desktop/address-book/bin/Debug/netcoreapp1.1/address_book.runtimeconfig.json
+/Users/Guest/Desktop/address-book/bin/Debug/netcoreapp1.1/address_book.runtimeconfig.dev.json
+/Users/Guest/Desktop/address-book/bin/Debug/netcoreapp1.1/address_book.dll
+/Users/Guest/Desktop/address-book/bin/Debug/netcoreapp1.1/address_book.pdb
+/Users/Guest/Desktop/address-book/obj/Debug/netcoreapp1.1/address_book.AssemblyInfo.cs
+/Users/Guest/Desktop/address-book/obj/Debug/netcoreapp1.1/address_book.dll
+/Users/Guest/Desktop/address-book/obj/Debug/netcoreapp1.1/address_book.pdb

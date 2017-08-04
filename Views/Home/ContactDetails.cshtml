@@ -6,5 +6,8 @@
 <p>Phone Number: @Model.GetPhoneNumber()</p>
 <p>Address: @Model.GetAddress()</p>
 
+<form action="/contact/remove/@Model.GetID()" method="post">
+  <button type="submit" name="button">Delete This Contact</button>
+</form>
 <a href="/"><button>View All Contacts</button></a>
 <a href="/contact/add"><button>Add Another Contact</button></a>

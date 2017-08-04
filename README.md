@@ -19,6 +19,7 @@ _A webpage to create a list of contacts to include names, phone numbers and addr
 |5.| User can view contact details  | Click on a contact's name  | View displays contact's phone number and address   |
 |6.| User can delete the entire contacts list  | Click on "Delete All Contacts" button  | Contacts will be deleted and view will display message "Your Address Book Has Been Cleared!"  |
 |7.| User can return to home page | Click on "Home" link  | View will display the home page  |
+|8.| User can delete a contact | Click on "Delete This Contact" button in the Contact Details view  | Contact will be deleted and the view will display "Your Contact Has Been Deleted"  |
 
 ## Setup/Installation Requirements
 

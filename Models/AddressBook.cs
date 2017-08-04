@@ -65,6 +65,11 @@ namespace AddressBook.Models
       _contacts.Clear();
     }
 
+    public void RemoveThis(Contact contact)
+    {
+      _contacts.Remove(contact);
+    }
+
     public static Contact Find(int searchID)
     {
       return _contacts[searchID - 1];

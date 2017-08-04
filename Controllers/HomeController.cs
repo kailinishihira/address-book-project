@@ -21,6 +21,14 @@ namespace AddressBook.Controllers
             return View();
         }
 
+    [HttpPost("/contact/remove/{id}")]
+        public ActionResult RemoveContact(int id)
+        {
+            Contact contact = Contact.Find(id);
+            contact.RemoveThis(contact);
+            return View(contact);
+        }
+
     [HttpGet("/contact/add")]
         public ActionResult AddContact()
         {

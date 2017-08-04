@@ -11,7 +11,7 @@ _Epicodus Week 6 Individual Project_
 _A webpage to create a list of contacts to include names, phone numbers and addresses._
 
 || Behavior  | Input  | Output  |
-|---|---|---|
+|---|---|---|---|
 |1.|  User can input a new contact | Click "Add a New Contact" link on homepage  | View displays blank form with name, phone number and address fields  |
 |2.| User can add a new contact  | Add contact information in form fields and click "submit" button | View displays the contact information the user inputted   |
 |3.| User can add additional new contacts  | Click on "Add another contact" link| User returns to blank form view with contact fields   |

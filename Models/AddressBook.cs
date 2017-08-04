@@ -7,13 +7,22 @@ namespace AddressBook.Models
     private string _name;
     private string _phoneNumber;
     private string _address;
+    private int _id;
+
     private static List<Contact> _contacts = new List<Contact>{};
 
     public Contact (string name, string phoneNumber, string address)
     {
       _name = name;
+      _phoneNumber = phoneNumber;
+      _address = address;
       _contacts.Add(this);
       _id = _contacts.Count;
+    }
+
+    public int GetID()
+    {
+      return _id;
     }
 
     public string GetName()
